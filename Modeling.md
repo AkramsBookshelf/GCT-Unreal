@@ -104,12 +104,23 @@ This is where **Modeling Mode** comes in.
 2. Then choose **Extrude**
 3. Extrude up by entering **6.25** in the **Z axis**
 4. Choose **Accept**
+
+![Extrude base up ](imgs/modeling/gct-extrude-top.png)
+
 5. Select the innermost top face and choose **Extrude** again
 6. Enter **300** in the **Z axis** to extrude up.
 7. Choose **Accept**
+
+![Extrude wall ](imgs/modeling/gct-extrude-center-top.png)
+
 8. Select the top face again, and **Extrude** in the **Z axis** at **3.125**
 9. Choose **Accept**
+
+![Extrude top](imgs/modeling/gct-extrude-center-top-cap.png)
+
 10. Repeat Steps 8 and 9 one more time.
+
+
 #
 
 ### Step 7 — Extrude Front Faces for Detail
@@ -119,12 +130,16 @@ This is where **Modeling Mode** comes in.
 2. Select the **back faces of the top two sections** of the wall
    - **Exturde** in the **Y axis** at **-6.25**
    - Choose **Accept**
+![Extrude top sides](imgs/modeling/gct-wall-top.png)
+
 3. Select the **very top front face** only
   - **Exturde** in the **Y axis** at **6.25**
   - Choose **Accept**
 4. Select the **very top Back face** only
   - **Exturde** in the **Y axis** at **-6.25**
   - Choose **Accept**
+
+  ![Extrude top final cap](imgs/modeling/gct-wall-top-cap.png)
 
 You now have the top cap of the wall completed.
 
@@ -135,11 +150,17 @@ You now have the top cap of the wall completed.
  2. In the **Outliner** select the **SM_Wall**
  3. In the Top toolbar, click on the **BluePrints** tool
  4. From the dropdown, choose **Convert Selection to Blueprint Class**
+
+ ![Convert to Blueprint](imgs/modeling/gct-convert-blueprint.png)
+ 
  5. In the Blueprint dialog
     - Set the **Creation Method** to **New Subclass**
     -  Name the class to **BP_Wall**
     -  Set the path to the **BluePrints** folder
     -  Click **Select**
+    
+![Blueprint selection](imgs/modeling/gct-create-selection-blueprint.png)
+    
 6. The Blueprint dialog will open.
 7. Press save to save the **BP_Wall** settings and close the dialog
 8. Back in the **Outliner** select the **BP_Wall**
@@ -148,6 +169,8 @@ You now have the top cap of the wall completed.
 11. Move the copy mesh over **100** units in the **X axis**.
 12. Paste another copy of the wall mesh, and move it over **-100** units in the **X axis**.
 13. Save the Blueprints and close the dialog
+
+![Blueprint selection](imgs/modeling/gct-blueprint-wall3.png)
 
 
 
