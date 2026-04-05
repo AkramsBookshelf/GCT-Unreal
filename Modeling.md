@@ -45,4 +45,22 @@ This is where **Modeling Mode** comes in.
 >
 
 3. In the **Outliner** select the **Box** instance of the static mesh
-4. Rename this to `Wall` as well. 
+4. Rename this to `Wall` as well.
+
+#
+
+### Step 5 — Extruding Faces
+1. From the top menu, choose the `Select Mesh PolyGroups` setting
+   - This will allow us to select the polygon faces on the box.
+2. In the **Viewport**, select the front face along the **Y axis** of the _wall_
+3. From the Modeling toolbar on the left side, choose **Select**
+4. Then choose **Extrude**
+5. In the **Viewport** locate the **Transform box**
+6. Turn **Delta Mode** OFF
+7. Enter **6.25** in the **Y axis** to extrude out that distance.
+8. Click **Accept**
+9. Rotate around to the other side of the wall and select the back face
+10. Choose **Extrude** again
+11. Enter **-6.25** in the **Y axis** to extrude in the opisite direction.
+12. Click **Accept**
+13. 
