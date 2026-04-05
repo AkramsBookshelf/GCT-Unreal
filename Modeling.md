@@ -64,4 +64,9 @@ This is where **Modeling Mode** comes in.
 11. Enter **-6.25** in the **Y axis** to extrude in the opisite direction.
 12. Click **Accept**
 13. Repeat steps 7 through 12 again, extruding another **6.26** and **-6.25** on both sides.
-14. 
+#
+
+### Step 6 — Extruding the Wall Top Faces
+1. Select the inner three faces on the top of the wall base
+2. Then choose **Extrude**
+3. Extrude up by entering **6.25** in the **Z axis**
