@@ -91,6 +91,7 @@ This is where **Modeling Mode** comes in.
 10. Choose **Extrude** again
 11. Enter **-6.25** in the **Y axis** to extrude in the opisite direction.
 12. Click **Accept**
+
   ![Extrude Back](imgs/modeling/gct-extrude-Y-axis-opisite.png)
 
 13. Repeat steps 7 through 12 again, extruding another **6.26** and **-6.25** on both sides.
