@@ -17,6 +17,9 @@ This is where **Modeling Mode** comes in.
 2.  Create/Open an **Empty Level**
 3.  In the top toolbar, set the **View Mode** to **Unlit**
     - Shortcut for **Unlit** mode is `ALT + 3`
+      
+![View mode Unlit](imgs/modeling/gct-unlit-level.png)
+
 5.  Save this level with the name **Empty**
 
 > [!NOTE]
@@ -27,8 +30,9 @@ This is where **Modeling Mode** comes in.
 ### Step 2 — Enable Modeling Mode
 1.  Top-left mode dropdown
 2.  Select **Modeling Mode**
-    - OR press **SHIFT + 5** 
-
+    - OR press **SHIFT + 5**
+      
+![Modeling Mode](imgs/modeling/gct_modeling_mode.png)
 #
 
 ### Step 3 — Create Base Wall Shape
@@ -39,7 +43,13 @@ This is where **Modeling Mode** comes in.
     - Depth = 100
     - Height = 12.5
     - Target Position = At Origin
+      
+![Create Box](imgs/modeling/gct-create-box.png)
+
 4. At the bottom of the **Viewport** press **Accept** to acept the box model
+
+![Accept Box](imgs/modeling/gct-accept-box.png)
+
 #
 
 ### Step 4 — Rename Static Mesh
@@ -47,7 +57,7 @@ This is where **Modeling Mode** comes in.
 2. Find the **Box** static mesh and rename it to `SM_Wall`
 
 > [!NOTE]
-> Models created in Unreal Engine will be placed in the content folder inside a folder named `_GENERATED` and inside a subfolder with your_username_. The object will be named by the type of primitive (in this case, _Box_) followed by an ID number. This can be renamed at any time.
+> Models created in Unreal Engine will be placed in the content folder inside a folder named `_GENERATED` and inside a subfolder with your_username_. The object will be named by the primitive type (in this case, _Box_) followed by an ID number. This can be renamed at any time.
 >
 
 3. In the **Outliner** select the **Box** instance of the static mesh
@@ -58,18 +68,34 @@ This is where **Modeling Mode** comes in.
 ### Step 5 — Extruding Faces
 1. From the top menu, choose the `Select Mesh PolyGroups` setting
    - This will allow us to select the polygon faces on the box.
+
+  ![Select Mesh](imgs/modeling/gct-select-mesh-polygroup.png)
+    
 2. In the **Viewport**, select the front face along the **Y axis** of the _wall_
+
+  ![Select front face](imgs/modeling/gct-select-front-face.png)
+  
 3. From the Modeling toolbar on the left side, choose **Select**
 4. Then choose **Extrude**
+
+  ![Extrude](imgs/modeling/gct-select-extrude.png)
+  
 5. In the **Viewport** locate the **Transform box**
 6. Turn **Delta Mode** OFF
 7. Enter **6.25** in the **Y axis** to extrude out that distance.
 8. Click **Accept**
+
+  ![Extrude Front](imgs/modeling/gct-extrude-Y-axis.png)
+  
 9. Rotate around to the other side of the wall and select the back face
 10. Choose **Extrude** again
 11. Enter **-6.25** in the **Y axis** to extrude in the opisite direction.
 12. Click **Accept**
+  ![Extrude Back](imgs/modeling/gct-extrude-Y-axis-opisite.png)
+
 13. Repeat steps 7 through 12 again, extruding another **6.26** and **-6.25** on both sides.
+
+  ![Wall base exturded](imgs/modeling/gct-wall-base-extruded.png)
 #
 
 ### Step 6 — Extruding the Wall Top Faces
