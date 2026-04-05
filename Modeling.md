@@ -70,3 +70,9 @@ This is where **Modeling Mode** comes in.
 1. Select the inner three faces on the top of the wall base
 2. Then choose **Extrude**
 3. Extrude up by entering **6.25** in the **Z axis**
+4. Choose **Accept**
+5. Select the innermost top face and choose **Extrude** again
+6. Enter **300** in the **Z axis** to extrude up.
+7. Choose **Accept**
+8. Select the top face again, and **Extrude** one more time in the **Z axis** at **3.125**
+9. Choose **Accept** 
