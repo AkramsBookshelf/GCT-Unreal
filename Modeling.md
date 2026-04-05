@@ -113,16 +113,31 @@ You now have the top cap of the wall completed.
     -  Name the class to **BP_Wall**
     -  Set the path to the **BluePrints** folder
     -  Click **Select**
-6. Close the 
+6. The Blueprint dialog will open.
+7. Press save to save the **BP_Wall** settings and close the dialog
+8. Back in the **Outliner** select the **BP_Wall**
+9. Repeat steps 3-5, naming the new blueprint **BP_WallX3**
+10. In the Blueprint dialog, copy and paste the static mesh
+11. Move the copy mesh over **100** units in the **X axis**.
+12. Paste another copy of the wall mesh, and move it over **-100** units in the **X axis**.
+13. Save the Blueprints and close the dialog
 
 
 
-### Step 8 — Return to Level_01
+### Step 9 — Place Walls in the Park
 1. In the **Empty** level you can now delete your **Wall** object from the **outliner**
    - This keeps the empty level, empty
 > [!NOTE]
 > The Wall model is still tied to your static mesh in the `_GENERATED` folder, so do not worry about deleting it.
 >
 2. From the **Content Browser** open **Level_01**
-3. In the **Outliner** under the **Enviorment** folder add a new sub-folder name **Park Walls**
-4. From the **Content Browser** drag and drop the **Wall** static mesh into the level. 
+3. Change the view mode back to **Lit** (`ALT+4`) 
+4. In the **Outliner** under the **Enviorment** folder add a new sub-folder name **Park Walls**
+5. From the **Content Browser** drag and drop the **BP_WallX3** static mesh into the level.
+6. Use the **BP_WallX3** to create the main boundaries of the park.
+    -   For small gaps, use the single **BP_Wall** to fill in.
+7.  Add wall segments to divide the park into at least **two sections**.
+8.  Leave a **3-meter opening** between the sections.
+    -   We will add a gate here in the next tutorial.
+        
+
