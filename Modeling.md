@@ -15,6 +15,10 @@ This is where **Modeling Mode** comes in.
 ### Step 1 — Open a Clean Level
 1.  Open your project
 2.  Create/Open an **Empty Level**
+3.  Save this level with the name **Empty**
+
+> [!NOTE]
+> This empty level will be used as a staging area for creating models inside of Unreal. 
 
 #
 
@@ -94,3 +98,13 @@ This is where **Modeling Mode** comes in.
   - Choose **Accept**
 
 You now have the top cap of the wall completed.
+
+### Step 8 — Return to Level_01
+1. In the **Empty** level you can now delete your **Wall** object from the **outliner**
+   - This keeps the empty level, empty
+> [!NOTE]
+> The Wall model is still tied to your static mesh in the `_GENERATED` folder, so do not worry about deleting it.
+>
+2. From the **Content Browser** open **Level_01**
+3. In the **Outliner** under the **Enviorment** folder add a new sub-folder name **Park Walls**
+4. From the **Content Browser** drag and drop the **Wall** static mesh into the level. 
