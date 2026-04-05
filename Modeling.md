@@ -33,3 +33,16 @@ This is where **Modeling Mode** comes in.
     - Depth = 100
     - Height = 12.5
     - Target Position = At Origin
+4. At the bottom of the **Viewport** press **Accept to acept the box model
+#
+
+### Step 4 — Rename Static Mesh
+1. In the **Content Browser** navigate to the `_GENERATED > Username` folder
+2. Find the **Box** static mesh and rename it to `Wall`
+
+> [!NOTE]
+> Models created in Unreal Engine will be placed in the content folder inside a folder named `_GENERATED` and inside a subfolder with your_username_. The object will be named by the type of primitive (in this case, _Box_) followed by an ID number. This can be renamed at any time.
+>
+
+3. In the **Outliner** select the **Box** instance of the static mesh
+4. Rename this to `Wall` as well. 
