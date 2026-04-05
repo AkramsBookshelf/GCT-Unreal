@@ -74,5 +74,7 @@ This is where **Modeling Mode** comes in.
 5. Select the innermost top face and choose **Extrude** again
 6. Enter **300** in the **Z axis** to extrude up.
 7. Choose **Accept**
-8. Select the top face again, and **Extrude** one more time in the **Z axis** at **3.125**
-9. Choose **Accept** 
+8. Select the top face again, and **Extrude** in the **Z axis** at **3.125**
+9. Choose **Accept**
+10. Repeat Steps 8 and 9 one more time.
+    
