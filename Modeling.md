@@ -295,6 +295,9 @@ By the end of this challenge, you should have:
 -   A **Blueprint version of the gate**
 -   A deeper understanding of how to **transfer skills between engines**
 
+**You will be graded on your ability to problem-solve and to apply logic.**
+Remember that the internet is a good resource, AI is helpful but not always correct. 
+
 ## 💡 Mindset Reminder
 
 > \[!TIP\]  
