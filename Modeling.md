@@ -1,4 +1,4 @@
-# 📜 Unreal Engine Modeling (Modeling Mode)
+# 📜 Unreal Engine Modeling
 
 > By: Akram Taghavi-Burris | © 2026
 
