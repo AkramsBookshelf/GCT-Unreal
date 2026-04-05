@@ -189,5 +189,117 @@ You now have the top cap of the wall completed.
 7.  Add wall segments to divide the park into at least **two sections**.
 8.  Leave a **3-meter opening** between the sections.
     -   We will add a gate here in the next tutorial.
-        
 
+#
+
+### Step 10 — Save & Commit
+1.  Save your scene: **File > Save** or **Ctrl + S**.
+2.  Close Unreal.
+3.  Switch to **GitHub Desktop** → stage your changes.
+4.  Commit with the message:
+    -   `feat: created Wall Blueprint.`
+5.  Push your changes to the remote branch: `SceneBuilding`.
+
+
+        
+---
+
+# 🎯 CHALLENGE: Recreate the Park Gate in Unreal
+
+Now that you’ve learned the basics of **Modeling Mode in Unreal Engine**, it’s time to apply those skills independently.
+
+In game development, it’s very common to switch tools and engines. For example, a **Unity developer may be hired to work in Unreal Engine**. Employers value developers who can:
+
+-   **Adapt quickly**
+-   **Apply prior knowledge to new tools**
+-   **Problem-solve without step-by-step instructions**
+
+This challenge is designed to build that skill.
+
+## 🧠 The Task
+
+Use the **Unity ProBuilder Gate Tutorial** to recreate the **Park Gate in Unreal Engine**.
+
+👉 You are **not** given step-by-step Unreal instructions this time.
+
+Instead, your goal is to:
+
+-   **Translate the process**
+-   **Apply equivalent tools in Unreal**
+-   **Problem-solve when things don’t match exactly**
+
+## 🔁 What You Should Recognize
+
+Even though the tools are different, the **core concepts are the same**:
+
+-   Creating a base shape
+-   Extruding faces
+-   Adding detail through subdivision and repetition
+-   Building modular structure
+-   Creating a reusable asset (Blueprint)
+
+👉 _The workflow is different, but the thinking is the same._
+
+## ⚠️ Important Reminders
+
+Before you begin, keep the following in mind:
+
+### 📏 Units
+
+-   Unreal uses **centimeters**
+-   Multiply all Unity values by **100**
+
+### 🔄 Axis Differences
+
+-   Unity uses **Y as up**
+-   Unreal uses **Z as up**
+
+👉 This means:
+
+-   Height → **Z axis in Unreal**
+-   Depth → **X axis in Unreal**
+
+### 🧱 Prefabs vs Blueprints
+
+-   Unity **Prefabs** = Unreal **Blueprints**
+-   You will need to convert your final gate into a **Blueprint Actor**
+
+### ⚒️ Modeling Behavior
+
+-   You will need to **extrude front and back faces separately**
+-   This ensures correct extrusion direction:
+    -   One goes **positive**
+    -   One goes **negative**
+
+If you extrude both at once, the geometry may not behave as expected.
+
+## 🧪 Suggested Approach
+
+To help guide your thinking:
+
+1.  Start in an **empty level**
+2.  Create a **base cube**
+3.  Build the **vertical gate post first**
+4.  Add **front details**
+5.  Construct the **horizontal rails**
+6.  Use **subdivide + extrude** for panel details
+7.  Finish with **decorative elements (finials)**
+8.  Convert to a **Static Mesh**
+9.  Create a **Blueprint** for the full gate
+
+## 🎯 Goal
+
+By the end of this challenge, you should have:
+
+-   A **fully modeled gate in Unreal**
+-   A **Blueprint version of the gate**
+-   A deeper understanding of how to **transfer skills between engines**
+
+## 💡 Mindset Reminder
+
+> \[!TIP\]  
+> You are not learning _Unreal_ or _Unity_—  
+> you are learning **how to think like a game developer**.
+> 
+> Tools will change.  
+> Your ability to **adapt and solve problems** is what matters most.
