@@ -51,7 +51,7 @@ This is where **Modeling Mode** comes in.
 >
 
 3. In the **Outliner** select the **Box** instance of the static mesh
-4. Rename this to `Wall` as well.
+4. Rename this to `SM_Wall` as well.
 
 #
 
@@ -100,6 +100,22 @@ This is where **Modeling Mode** comes in.
   - Choose **Accept**
 
 You now have the top cap of the wall completed.
+
+ #
+
+ ### Step 8 — Create Wall Blueprint
+ 1. In the **Content Browser** create a new folder named **Blueprints**
+ 2. In the **Outliner** select the **SM_Wall**
+ 3. In the Top toolbar, click on the **BluePrints** tool
+ 4. From the dropdown, choose **Convert Selection to Blueprint Class**
+ 5. In the Blueprint dialog
+    - Set the **Creation Method** to **New Subclass**
+    -  Name the class to **BP_Wall**
+    -  Set the path to the **BluePrints** folder
+    -  Click **Select**
+6. Close the 
+
+
 
 ### Step 8 — Return to Level_01
 1. In the **Empty** level you can now delete your **Wall** object from the **outliner**
