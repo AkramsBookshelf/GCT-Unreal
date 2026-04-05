@@ -77,4 +77,20 @@ This is where **Modeling Mode** comes in.
 8. Select the top face again, and **Extrude** in the **Z axis** at **3.125**
 9. Choose **Accept**
 10. Repeat Steps 8 and 9 one more time.
-    
+#
+
+### Step 7 — Extrude Front Faces for Detail
+1. Select the **front faces of the top two sections** of the wall
+   - **Exturde** in the **Y axis** at **6.25**
+   - Choose **Accept**
+2. Select the **back faces of the top two sections** of the wall
+   - **Exturde** in the **Y axis** at **-6.25**
+   - Choose **Accept**
+3. Select the **very top front face** only
+  - **Exturde** in the **Y axis** at **6.25**
+  - Choose **Accept**
+4. Select the **very top Back face** only
+  - **Exturde** in the **Y axis** at **-6.25**
+  - Choose **Accept**
+
+You now have the top cap of the wall completed.
