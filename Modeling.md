@@ -218,7 +218,7 @@ This challenge is designed to build that skill.
 
 ## 🧠 The Task
 
-Use the **Unity ProBuilder Gate Tutorial** to recreate the **Park Gate in Unreal Engine**.
+Use the **[Unity ProBuilder Gate Tutorial](https://github.com/AkramsBookshelf/GCT-Unity/blob/main/UnityEssentials/ProBuilder.md#%EF%B8%8F-tutorial-create-the-park-gate-with-probuilder)** to recreate the **Park Gate in Unreal Engine**.
 
 👉 You are **not** given step-by-step Unreal instructions this time.
 
@@ -235,7 +235,7 @@ Even though the tools are different, the **core concepts are the same**:
 -   Creating a base shape
 -   Extruding faces
 -   Adding detail through subdivision and repetition
--   Building modular structure
+-   Building a modular structure
 -   Creating a reusable asset (Blueprint)
 
 👉 _The workflow is different, but the thinking is the same._
